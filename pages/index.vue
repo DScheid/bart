@@ -3,7 +3,7 @@
 <template>
   <div class="center">
     <div class="text-center">
-      <h1>Hi, Welcome to my NUXT/API Website</h1>
+      <h1>Hi, Welcome to my Bitcoin and Drink Recipe Site</h1>
       <p>Please find API Usage on the DOTD, SEARCH, and BITCOIN Pages</p>
     </div>
   </div>

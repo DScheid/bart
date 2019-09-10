@@ -2,7 +2,7 @@
 
 <template>
   <div class='p-5'> 
-    <h3 class="mb-0">Search For Ingredients</h3>
+    <h1 class="mb-0">Search For Drink Ingredients</h1>
     <small class='mb-5'>Vodka, Whiskey, lemon, lime, etc.</small><br><br>
     <!-- Vue's method for handling user input is v-model -->
     <input v-model="search" placeholder="vodka / gin / etc.">
