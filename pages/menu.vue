@@ -31,6 +31,15 @@ export default {
   mounted() {
     this.getIngredient();
   },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'Search Description and History of a given cocktail or drink ingredient' }
+      ]
+    }
+  },
   methods: {
     getIngredient: function() {
       this.loading = true;

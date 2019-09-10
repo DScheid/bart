@@ -38,6 +38,15 @@ export default {
     //Calls getDrink menu to render drink as soon as the app is ready.
     this.getDrink();
   },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'A random cocktail recipe with ingredients, steps, and photo' }
+      ]
+    }
+  },
   methods: {
     // Broken off into a method because it is called in multiple scenarios
     getDrink: function () {
